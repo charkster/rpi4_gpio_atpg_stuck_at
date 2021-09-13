@@ -1,0 +1,36 @@
+DFF 1.1	Time Sets (Basic)															
+																
+	Timing Mode:	Single														
+																
+		Cycle		Pin/Group		Data		Drive				Compare				
+	Time Set	Period	CPP	Name	Setup	Src	Fmt	On	Data	Return	Off	Mode	Open	Close	Comment	
+	sWFT	100.000E-09	1	APN_1	i/o	PAT	NR	0	0.0		=C7	Edge	=C7*0.400			
+	sWFT	100.000E-09	1	APN_2	i/o	PAT	NR	0	0.0		=C8	Edge	=C8*0.400			
+	sWFT	100.000E-09	1	APN_3	i/o	PAT	NR	0	0.0		=C9	Edge	=C9*0.400			
+	sWFT	100.000E-09	1	APN_4	i/o	PAT	NR	0	0.0		=C10	Edge	=C10*0.400			
+	sWFT	100.000E-09	1	APN_5	i/o	PAT	NR	0	0.0		=C11	Edge	=C11*0.400			
+	sWFT	100.000E-09	1	APN_6	i/o	PAT	RL	0	=C12*0.500	=C12*0.800	=C12	Edge	=C12*0.400			
+	sWFT	100.000E-09	1	APN_7	i/o	PAT	NR	0	0.0		=C13	Edge	=C13*0.400			
+	sWFT	100.000E-09	1	APN_9	i/o	PAT	NR	0	0.0		=C14	Edge	=C14*0.400			
+	sWFT	100.000E-09	1	APN_10	i/o	PAT	NR	0	0.0		=C15	Edge	=C15*0.400			
+	sWFT	100.000E-09	1	APN_8	i/o	PAT	NR	0	0.0		=C16	Edge	=C16*0.400			
+	eWFT	100.000E-09	1	APN_1	i/o	PAT	NR	0	0.0		=C17	Edge	=C17*0.400			
+	eWFT	100.000E-09	1	APN_2	i/o	PAT	NR	0	0.0		=C18	Edge	=C18*0.400			
+	eWFT	100.000E-09	1	APN_3	i/o	PAT	NR	0	0.0		=C19	Edge	=C19*0.400			
+	eWFT	100.000E-09	1	APN_4	i/o	PAT	NR	0	0.0		=C20	Edge	=C20*0.400			
+	eWFT	100.000E-09	1	APN_5	i/o	PAT	NR	0	0.0		=C21	Edge	=C21*0.400			
+	eWFT	100.000E-09	1	APN_6	i/o	PAT	NR	0	0.0		=C22	Edge	=C22*0.400			
+	eWFT	100.000E-09	1	APN_7	i/o	PAT	NR	0	0.0		=C23	Edge	=C23*0.400			
+	eWFT	100.000E-09	1	APN_9	i/o	PAT	NR	0	0.0		=C24	Edge	=C24*0.400			
+	eWFT	100.000E-09	1	APN_10	i/o	PAT	NR	0	0.0		=C25	Edge	=C25*0.400			
+	eWFT	100.000E-09	1	APN_8	i/o	PAT	NR	0	0.0		=C26	Edge	=C26*0.400			
+	cWFT	100.000E-09	1	APN_1	i/o	PAT	NR	0	0.0		=C27	Edge	=C27*0.400			
+	cWFT	100.000E-09	1	APN_2	i/o	PAT	NR	0	0.0		=C28	Edge	=C28*0.400			
+	cWFT	100.000E-09	1	APN_3	i/o	PAT	NR	0	0.0		=C29	Edge	=C29*0.400			
+	cWFT	100.000E-09	1	APN_4	i/o	PAT	NR	0	0.0		=C30	Edge	=C30*0.400			
+	cWFT	100.000E-09	1	APN_5	i/o	PAT	NR	0	0.0		=C31	Edge	=C31*0.400			
+	cWFT	100.000E-09	1	APN_6	i/o	PAT	RL	0	=C32*0.500	=C32*0.800	=C32	Edge	=C32*0.400			
+	cWFT	100.000E-09	1	APN_7	i/o	PAT	NR	0	0.0		=C33	Edge	=C33*0.400			
+	cWFT	100.000E-09	1	APN_9	i/o	PAT	NR	0	0.0		=C34	Edge	=C34*0.400			
+	cWFT	100.000E-09	1	APN_10	i/o	PAT	NR	0	0.0		=C35	Edge	=C35*0.400			
+	cWFT	100.000E-09	1	APN_8	i/o	PAT	NR	0	0.0		=C36	Edge	=C36*0.400			

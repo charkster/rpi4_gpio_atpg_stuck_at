@@ -1,0 +1,13 @@
+DFF 1.0	Pin Map				
+					
+	Group Name	Pin Name	Type	Comment	
+		APN_1	I/O		
+		APN_2	I/O		
+		APN_3	I/O		
+		APN_4	I/O		
+		APN_5	I/O		
+		APN_6	I/O		
+		APN_7	I/O		
+		APN_9	I/O		
+		APN_10	I/O		
+		APN_8	I/O		
