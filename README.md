@@ -3,7 +3,7 @@ Raspberry Pi 4 is used to drive ATPG stuck-at patterns to an IC. Python is used 
 
 The Python pattern file "complr_patterns.py.gz" needs to be decompressed. The ATP pattern file "scan_patterns/complr.atp.gz" was also compressed to save repository space. The Python pattern file complr_patterns.py was created using the scripts/parse_scan.pl script with the complr.atp file as input.
 
-In this example each chain has a length of about 156 bits. Four chains are driven at once, which gives an effective length of 624 bits. 3503 pattern are used, which comes to about 2.2 million bits. It takes about 8 seconds to run these patterns. It takes much longer to run on a RPi3 (maybe 10 times), but the patterns would need to be divided into chunks as the 1GB RAM on the RPi3 becomes an issue. Just use the RPi4 2GB or higher.
+In this example each chain has a length of about 156 bits. Four chains are driven at once, which gives an effective length of 624 bits. 3503 pattern are used, which comes to about 2.2 million bits. It takes about 8 seconds to run these patterns. It takes much longer to run on a RPi3 (maybe 10 times) and the patterns would need to be divided into chunks as the 1GB RAM on the RPi3 becomes an issue. Just use the RPi4 2GB or higher.
 
 Why run stuck-at patterns on the lab bench? If you need to implement an ATE-to-bench with scan, this is a very low-cost method. If you are supporting a test chip with no ATE support, this is a very low-cost method.
 
