@@ -37,3 +37,6 @@ while(<>) {
 	}
 }
 print "\npattern_list = [ " . $pattern_list . " ]\n";
+print "import json\n";
+print "with open('kruxlite_pattern_list.json', 'w') as filehandle:\n";
+print "    json.dump(pattern_list, filehandle)";
